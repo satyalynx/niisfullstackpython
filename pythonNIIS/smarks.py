@@ -1,0 +1,6 @@
+nm=input("Enter a name:\n ")
+r=int(input("Enter rollno:\n "))
+m=float(input("Enter marks:\n "))
+print("my name: ", nm)
+print("my rollno.: ", r)
+print("marks: ", m)
