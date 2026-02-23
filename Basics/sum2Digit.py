@@ -1,0 +1,5 @@
+#Digit Sum (2 digits)
+n = int(input("Enter a number: "))
+print(n)
+sum = (n//10) + (n%10)
+print("Sum of 2 digits: ", sum)
