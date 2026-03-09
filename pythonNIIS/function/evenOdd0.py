@@ -1,4 +1,4 @@
-#even odd program by NO RETURN VALUE WITH ARGUMENT
+#even odd program by #NO RETURN VALUE WITH ARGUMENT
 
 def check(n):
 	if n%2==0:

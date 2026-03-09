@@ -1,15 +1,12 @@
 #RETURN VALUE WITHOUT ARGUMENTS
 
-def factorial():
-    """Prompt the user for a number, compute its factorial and return it."""
+def facttest():
     num = int(input("Enter a number: "))
-    result = 1
+    f = 1
     while num > 0:
-        result *= num
-        num -= 1
-    return result                     # <-- return the computed value
+        f = f * num
+        num = num - 1
+    return result              
 
-
-# ---- Example usage ----
-ans = factorial()                     # the input happens inside the function
-print("Factorial =", ans)
+res = facttest()                   
+print("Factorial =", res)
